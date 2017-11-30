@@ -34,15 +34,14 @@ const homePage = {
 `
 }
 const aboutPage = {
-    template: `<transition name="slide-fade"> <section class="mainSection carousel">
+    template: `<section class="mainSection carousel">
                  <div class="overLayer">
                    <br>
                    <h1 class="hdr-text"> Welcome to the About Page!</h1>
                    <br>
                    <h2>~ This is the page about me ~ </h2>
                  </div>
-               </section>
-</transition>`
+               </section>`
 }
 const portfolioPage = {
     template: `<section class="mainSection">
